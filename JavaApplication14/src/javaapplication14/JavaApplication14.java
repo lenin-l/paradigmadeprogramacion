@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+* implemente un algoritmo que nos permita ingresar lainformacion en base al paper:
+-requerimientos funcionales
+-requerimientos no funcionales
+-diseño orientado a objetos
+-abstraccion
  */
 package javaapplication14;
 
@@ -9,6 +11,7 @@ package javaapplication14;
  *
  * @author USUARIO
  */
+import java.util.Scanner;
 public class JavaApplication14 {
 
     /**
@@ -20,6 +23,20 @@ public class JavaApplication14 {
         System.out.println("\n\tCarrera Ingeniería Automotriz");
         System.out.println("\nAlumno: Lenin Carrillo ");
 
+        Scanner objeto=new Scanner (System.in);
+        System.out.println("\tINGRESE SUS REQUERIMIENTOS FUNCIONALES");
+        String requerimientos=objeto.nextLine();
+        
+        System.out.println("\tINGRESE SUS REQUERIMIENTOS NO FUNCIONALES");
+        String requerimientosNo=objeto.nextLine();
+        
+        System.out.println("\tINGRESE SUS DISEñO ORIENTADO A OBJETOS");
+        String objetos=objeto.nextLine();
+      
+        System.out.println("\tINGRESE ABSTRACCION");
+        String requerimientos=objeto.nextLine();
+        
+        
     }
     
 }
